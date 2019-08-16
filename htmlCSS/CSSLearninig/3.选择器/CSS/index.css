@@ -1,0 +1,22 @@
+*{
+    color: red;
+    font-size: initial;
+}
+[href~="b"]{
+    color: blue;
+}
+a:hover{
+    color: blue;
+}
+a:active{
+    color: black;
+}
+#test::before{
+    content: "《";
+}
+#test::after{
+    content: "》";
+}
+.div li,p.red{
+    color: blue;
+}
